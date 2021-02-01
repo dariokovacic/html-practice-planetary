@@ -1,0 +1,53 @@
+@import "bootstrap.min";
+
+
+.navbar-bg{
+  background-color: rgba(200, 200, 200, 0.25) !important;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  font-size: 1.5rem;
+  transition: all 200ms ease-in-out;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: rgba(38, 131, 237, 0.86);
+  transform: scale(1.1);
+}
+.blur {
+  backdrop-filter: blur(4px);
+}
+
+.color-white{
+  color: white;
+}
+
+.sect-row{
+  padding: 150px 0;
+}
+.card{
+  width: 300px;
+}
+.sect-text{
+  text-shadow: 2px 2px 4px #000000;
+}
+.sect-title{
+  font-size: 3.5rem;
+
+}
+.sect-p{
+font-size: 1.5rem;
+}
+
+.form-group label{
+  font-size: 2rem;
+}
+.nav-footer .nav-item a{
+  transition: all 200ms ease-in-out;
+}
+.nav-footer .nav-item a:hover{
+  color: rgba(38, 131, 237, 0.86);
+  transform: translateX(3px);
+}
+
+
+@import "index";

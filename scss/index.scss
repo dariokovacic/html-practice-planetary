@@ -1,0 +1,151 @@
+// ==================
+//       HEADER
+// ==================
+
+#banner-bg{
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+#h1-text{
+  font-size: 8rem;
+  text-shadow: 2px 2px 4px #000000;
+}
+#paragraph-banner{
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px #000000;
+}
+#logo{
+  max-height: 50px;
+}
+
+// ======================
+//      SECTION ONE
+// ======================
+
+#section-one{
+  background-image: url("img/background_middle.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+// =======================
+//       SECTION TWO
+// =======================
+
+#section-two{
+  background-image: url(img/background_bottom.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#form-padding{
+  padding-top: 20px;
+}
+
+// =====================
+//         FOOTER
+// =====================
+
+#nav-footer{
+  line-height: 5px;
+  padding: 10px 30px;
+}
+#footer-p{
+  font-size: 0.9rem;
+  padding-left: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding: 10px 30px;
+
+}
+#footer-par{
+  align-self: flex-end;
+}
+#rights{
+  align-self: flex-end;
+  padding-bottom: 10px;
+}
+
+
+// =======================
+// --------MEDIA----------
+// =======================
+
+// =============================
+//         Medium down
+// =============================
+@media (max-width: 991.98px){
+  .banner-img{
+    height: 350px;
+  }
+  #banner-img{
+    padding-top: 100px;
+  }
+  #h1-text{
+    font-size: 5rem;
+  }
+  #paragraph-banner{
+    font-size: 2rem;
+  }
+  .sect-one-row{
+    padding: 50px 0;
+  }
+  .sect-one-title{
+    font-size: 2.5rem;
+  }
+  .sect-one-p{
+    font-size: 1.25rem;
+  }
+  .sect-two-row{
+    padding-top: 50px;
+  }
+  .sect-two-title{
+    font-size: 2.5rem;
+  }
+  .sect-two-p{
+    font-size: 1.25rem;
+  }
+  .form-group label{
+      font-size: 1.25rem;
+  }
+  .rights{
+    font-size: 0.8rem;
+  }
+  .footer-ul{
+    font-size: 1.2rem;
+  }
+}
+
+// ==============================
+//           Small down
+// ==============================
+@media (max-width: 575.98px){
+  .banner-img{
+    height: 250px;
+  }
+  #h1-text{
+    font-size: 3rem;
+  }
+  #paragraph-banner{
+    font-size: 2rem;
+  }
+  .sect-two-title{
+    font-size: 2.5rem;
+  }
+  .sect-two-p{
+    font-size: 1.25rem;
+  }
+  .form-group label{
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1100.98px){
+  #h1-text{
+    font-size: 6rem;
+  }
+  #paragraph-banner{
+    font-size: 2.5rem;
+  }
+}
